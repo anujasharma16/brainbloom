@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f8f6ff">
+  <script>try{var c=JSON.parse(localStorage.getItem("bb_theme")||"\"system\"");var d=c==="dark"||(c!=="light"&&matchMedia("(prefers-color-scheme: dark)").matches);document.documentElement.dataset.theme=d?"dark":"light";}catch(e){}</script>
+  <title>Brainbloom · Learn AI by playing</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="description" content="Learn AI by playing: games, puzzles and quizzes from beginner to pro, in English, French, Spanish, Hindi and Mandarin.">
+  <meta name="author" content="Anuja Sharma">
+  <meta name="copyright" content="© 2026 Anuja Sharma. All rights reserved.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Brainbloom">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta property="og:title" content="Brainbloom: Learn AI by playing">
+  <meta property="og:description" content="Games, puzzles and quizzes that take you from AI beginner to pro.">
+  <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app"></div>
+  <div id="fx" aria-hidden="true"></div>
+  <noscript>Please enable JavaScript to use Brainbloom.</noscript>
+  <script src="content.js"></script>
+  <script src="i18n.js"></script>
+  <script src="hi.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" crossorigin="anonymous"></script>
+  <script src="characters.js"></script>
+  <script src="mascots3d.js"></script>
+  <script src="intros.js"></script>
+  <script src="quotes.js"></script>
+  <script src="skits.js"></script>
+  <script src="summaries.js"></script>
+  <script src="promptlab.js"></script>
+  <script src="trading.js"></script>
+<script src="business.js"></script>
+<script src="creators.js"></script>
+<script src="devpath.js"></script>
+<script src="zh-content.js"></script>
+<script src="zh.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="cloud.js"></script>
+  <script src="fx.js"></script>
+  <script src="app.js"></script>
+  <script>
+    // offline support + installability (needs https or localhost)
+    if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+  </script>
+</body>
+</html>

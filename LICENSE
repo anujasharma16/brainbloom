@@ -1,0 +1,14 @@
+Copyright (c) 2026 Anuja Sharma. All rights reserved.
+
+This software and its content (including the Brainbloom name, the Bruno and Pinky characters, lessons, questions,
+stories, translations, artwork, icons, sounds, design and source code) are the proprietary property of the copyright
+holder. No licence is granted to copy, modify, distribute, sell, sublicense or create derivative works from any part of
+it, except with the prior written permission of the copyright holder.
+
+Third-party components keep their own licences:
+  - Three.js: MIT License, Copyright (c) Three.js authors.
+  - Firebase JavaScript SDK: Apache License 2.0, Copyright (c) Google LLC.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
